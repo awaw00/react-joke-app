@@ -1,0 +1,23 @@
+{
+  "name": "react-joke-app",
+  "version": "0.0.1",
+  "description": "React joke app.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "awaw00 <awaw0618@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "react-hot-loader": "^3.0.0-beta.6",
+    "roadhog": "^0.3.2"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}

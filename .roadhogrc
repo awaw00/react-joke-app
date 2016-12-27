@@ -1,0 +1,17 @@
+{
+  "entry": "src/index.js",
+  "disableCSSModules": false,
+  "publicPath": "/",
+  "outputPath": "./dist",
+  "theme": null,
+  "extraBabelPlugins": [],
+  "autoprefixer": {
+    "browsers": ["iOS >= 8", "Android >= 4"]
+  },
+  "proxy": null,
+  "env": {
+    "development": {
+      "extraBabelPlugins": ["react-hot-loader/babel"]
+    }
+  }
+}
